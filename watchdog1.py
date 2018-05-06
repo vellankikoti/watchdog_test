@@ -1,4 +1,6 @@
 #This is Watchdog Test Program
+
+# Firsy you need to install watchdog to your system as:'pip install watchdog'
 import sys
 import time
 import logging
@@ -65,7 +67,7 @@ if __name__ == "__main__":
     '''
 
 '''Note:
-if you want to keep all the logs in 'mylogging.log', you can keep the filemode as 'a'(in line 46)
+if you want to keep all the logs in 'mylogging.log', you can keep the filemode as 'a'(in line 48)
 or if you don't want to keep logs then you can change filemode.
 I hope you are aware of file operations, like
                                             r,
